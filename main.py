@@ -122,7 +122,7 @@ def iniciar_pruebas_sistema():
 
     
     #2: Creacion de servicios especializados  (Validos e Invalidos)
-        print("\n--- 2. GESTIÓN DE SERVICIOS (POLIMORFISMO) ---")
+    print("\n--- 2. GESTIÓN DE SERVICIOS (POLIMORFISMO) ---")
     # Operación 5: Creación válida de Sala de Juntas
     try:
         sala_conferencias = ReservaSala("SRV-01", "Sala Innovación Norte", 80000.0, aforo_maximo=12, incluye_proyector=True)
